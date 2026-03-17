@@ -1,0 +1,21 @@
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 80px 20px;
+  background-color: #edf6f0;
+}
+
+.feature {
+  flex: 1 1 250px;
+  margin: 20px;
+  padding: 40px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+.feature:hover { transform: translateY(-10px); }
+.feature h3 { margin-bottom: 15px; color: #2a9d8f; }
+.feature p { color: #555; }
